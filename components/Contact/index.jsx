@@ -5,7 +5,7 @@ import Image from "next/image";
 import Rounded from "@/components/common/RoundedButton";
 import Magnetic from "@/components/common/Magnetic";
 
-const index = () => {
+const Index = () => {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -87,4 +87,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
